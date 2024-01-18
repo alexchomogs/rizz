@@ -26,7 +26,7 @@ export default function Home() {
         src="/images/teddy.png" 
         alt="Insanely built teddy hauling an inordinately large domino (not the pizza)"
         style={{ width: 100 }} />
-      <h1>Rizzulator 👋</h1>
+      <h1>Rizzulator 2.0 👋</h1>
 
         {score == 0 ?
           <Form handleCalculate={calculateScore} />
